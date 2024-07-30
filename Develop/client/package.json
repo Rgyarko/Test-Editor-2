@@ -1,12 +1,20 @@
 {
-  "name": "JATE",
+  "name": "Dave Inn",
+  "version": "1.0.0",
+  "description": "A simple text editor with IndexedDB storage",
+  "main": "server.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "server": "nodemon server.js --ignore client",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "start": "webpack --watchAll"
   },
-  "author": "2U",
-  "license": "UNLICENSED",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",

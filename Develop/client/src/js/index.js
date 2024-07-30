@@ -3,6 +3,9 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+console.log('Vite is running!'); 
+// Log message to confirm Vite is running
+
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
